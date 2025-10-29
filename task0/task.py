@@ -55,7 +55,7 @@ class AdjacencyMatrix:
 
     def _from_string(self) -> Union[List[List[int]], None]:
         try:
-            s = self.input_str.split('/n') 
+            s = self.input_str.split('\n') 
             max_ind = 0
             pairs = []
             for pair in s:

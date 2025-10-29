@@ -73,7 +73,7 @@ class TestMatrix(unittest.TestCase):
     def test_string_input(self):
         '''Тест ввода строкой'''
         print("Тест ввода строкой")
-        input_string = "1,2/n1,3/n2,3"
+        input_string = "1,2\n1,3\n2,3"
         expected_matrix = [[0, 1, 1],
                           [1, 0, 1],
                           [1, 1, 0]]
