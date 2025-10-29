@@ -92,7 +92,6 @@ def print_adjency_matrix(matrix: List[List[int]]) -> None:
         print("Пустая матрица")
         return
         
-    print("Матрица смежности графа:")
     print("   ", end="")
     for i in range(1, len(matrix)+1):
         print(f"{i:3}", end=' ')
