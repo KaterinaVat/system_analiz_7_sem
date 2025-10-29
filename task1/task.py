@@ -1,5 +1,6 @@
 import numpy as np
 import argparse
+
 input_str = '1,2/n1,3/n3,4/n2,5'
 
 def define_matrix(input_str):
